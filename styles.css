@@ -1,0 +1,36 @@
+/*----------------Style------------------*/
+body{
+    background: dimgrey;
+    font-family: "Comic Sans MS",sans-serif;
+}
+header,main,footer{
+    border-radius: 1em;
+    border: .1em solid #F2E2D2;
+    box-shadow: 0em 0em .8em #F2E2D2;
+    color: #F2E2D2;
+}
+header, footer{
+    background: linear-gradient(45deg, #46B1C9 50%, #84C0C6);
+    padding: .5em 1.5em;
+}
+main{
+    background: linear-gradient(45deg, #9FB7B9 50%, #BCC1BA);
+    padding: 0 1.5em 1.5em 1.5em;
+}
+img {
+    border: .1em solid black;
+    border-radius: 1em;
+}
+article h3{
+    margin: 0;
+}
+
+/*----------------Layout------------------*/
+.container{
+    max-width: 1080px;
+    margin: 0 auto;
+}
+article{
+    float: left;
+    width: 50%;
+}
